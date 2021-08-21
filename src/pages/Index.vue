@@ -129,12 +129,12 @@ export default {
     this.onRequestDataTable({
       pagination: this.pagination
     });
-    this.pagesNumber()
+    // this.pagesNumber()
   },
   methods: {
-    pagesNumber () {
-      return Math.ceil(this.tableData.length / this.pagination.rowsPerPage)
-    },
+    // pagesNumber () {
+    //   return Math.ceil(this.tableData.length / this.pagination.rowsPerPage)
+    // },
     async onRequestDataTable (props) {
       this.pagination.rowsPerPage = props.pagination.rowsPerPage
       this.loading = true
