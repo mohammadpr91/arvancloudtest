@@ -40,14 +40,14 @@
         </q-td>
       </template>
     </q-table>
-    <div class="row justify-center q-mt-md">
+    <!-- <div class="row justify-center q-mt-md">
       <q-pagination
         v-model="pagination.page"
         color="grey-8"
         :max="pagesNumber()"
         size="sm"
       />
-    </div>
+    </div> -->
     <q-dialog
       v-model="deleteModal"
       persistent
